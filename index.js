@@ -16,8 +16,8 @@ function myDisplayer(some) {
 }
 
 function myCalculator(num1, num2, myCallback) {
-    let sum = num1 + num2;
+    let sum = num1 * num2;
     myCallback(sum);
 }
 //when a function is passed like argument dont use parentesis
-myCalculator(5, 5, myDisplayer);
+myCalculator(9, 5, myDisplayer);
