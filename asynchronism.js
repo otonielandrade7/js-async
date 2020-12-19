@@ -1,10 +1,11 @@
 //ASYNCHRONISM
 //Functions running in parallel with other functions are called asynchronous
-let msg = 'Saludos mis panardos';
+let msg = "Saludos mis panardos";
 setTimeout(() => {
-    myAsync(msg);
+  myAsync(msg);
 }, 2000);
-console.log('Esto estará antes');
+console.log("Esto estará antes");
 function myAsync(msg) {
-    console.log(msg);
+  console.log(msg);
 }
+
